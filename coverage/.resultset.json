@@ -662,6 +662,18 @@
         null,
         null
       ],
+      "/Users/mbutera/projects/book_club/app/helpers/books_helper.rb": [
+        1,
+        1,
+        26,
+        28,
+        null,
+        null,
+        1,
+        26,
+        null,
+        null
+      ],
       "/Users/mbutera/projects/book_club/spec/support/factory_bot.rb": [
         1,
         1,
@@ -719,7 +731,7 @@
         1,
         null,
         1,
-        0,
+        1,
         null,
         null
       ],
@@ -799,6 +811,6 @@
         null
       ]
     },
-    "timestamp": 1555603476
+    "timestamp": 1555604920
   }
 }

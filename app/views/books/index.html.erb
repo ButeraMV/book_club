@@ -1,10 +1,17 @@
 <% @books.each do |book| %>
   <div class="book">
     <%= book.title %>
-    <% book.authors.each do |author| %>
-      <%= author.name %>
-    <% end %>
+    <p>Rating: <%= book_average_rating(book) %></p>
+    <p>Reviews: <%= book_review_count(book) %></p>
+    <%= get_authors(author) %>
     <%= book.pages %>
     <%= book.year %>
   </div>
 <% end %>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title"></h5>
+    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+  </div>
+</div>
