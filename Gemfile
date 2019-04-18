@@ -58,6 +58,7 @@ group :development do
 end
 
 gem 'bootstrap', '~> 4.3.1'
+gem 'devise'
 gem 'font-awesome-sass', '~> 5.8.1'
 gem 'jquery-rails'
 
