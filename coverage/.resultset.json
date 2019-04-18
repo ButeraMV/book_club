@@ -613,7 +613,7 @@
       "/Users/mbutera/projects/book_club/spec/factories/authors.rb": [
         1,
         1,
-        3,
+        5,
         null,
         null
       ],
@@ -628,9 +628,19 @@
       "/Users/mbutera/projects/book_club/spec/factories/books.rb": [
         1,
         1,
-        16,
-        16,
-        16,
+        30,
+        30,
+        30,
+        null,
+        null
+      ],
+      "/Users/mbutera/projects/book_club/spec/factories/reviews.rb": [
+        1,
+        1,
+        6,
+        6,
+        2,
+        1,
         null,
         null
       ],
@@ -669,7 +679,7 @@
         null,
         null,
         1,
-        11,
+        18,
         null,
         null,
         1,
@@ -677,27 +687,39 @@
         null,
         null,
         1,
-        11,
+        18,
         null,
         null,
         1,
-        11,
+        18,
         null,
         null
       ],
       "/Users/mbutera/projects/book_club/spec/features/books/books_index_spec.rb": [
         1,
         1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        1,
         1,
         1,
         null,
         null,
         1,
         1,
-        1,
         null,
         1,
-        1,
+        0,
         null,
         null
       ],
@@ -739,10 +761,27 @@
         2,
         2,
         2,
+        2,
         null
       ],
       "/Users/mbutera/projects/book_club/app/models/book.rb": [
         1,
+        1,
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/mbutera/projects/book_club/spec/models/review_spec.rb": [
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        null
+      ],
+      "/Users/mbutera/projects/book_club/app/models/review.rb": [
         1,
         1,
         1,
@@ -751,7 +790,7 @@
       "/Users/mbutera/projects/book_club/app/controllers/books_controller.rb": [
         1,
         1,
-        1,
+        2,
         null,
         null
       ],
@@ -760,6 +799,6 @@
         null
       ]
     },
-    "timestamp": 1555600787
+    "timestamp": 1555603476
   }
 }

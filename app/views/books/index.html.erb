@@ -1,7 +1,9 @@
 <% @books.each do |book| %>
   <div class="book">
     <%= book.title %>
-    <%= book.authors %>
+    <% book.authors.each do |author| %>
+      <%= author.name %>
+    <% end %>
     <%= book.pages %>
     <%= book.year %>
   </div>
