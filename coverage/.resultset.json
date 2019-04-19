@@ -613,7 +613,7 @@
       "/Users/mbutera/projects/book_club/spec/factories/authors.rb": [
         1,
         1,
-        5,
+        6,
         null,
         null
       ],
@@ -628,9 +628,9 @@
       "/Users/mbutera/projects/book_club/spec/factories/books.rb": [
         1,
         1,
-        30,
-        30,
-        30,
+        31,
+        31,
+        31,
         null,
         null
       ],
@@ -700,7 +700,7 @@
         null,
         null,
         1,
-        18,
+        19,
         null,
         null,
         1,
@@ -708,11 +708,11 @@
         null,
         null,
         1,
-        18,
+        19,
         null,
         null,
         1,
-        18,
+        19,
         null,
         null
       ],
@@ -809,6 +809,32 @@
         null,
         null
       ],
+      "/Users/mbutera/projects/book_club/spec/features/books/books_show_page_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/mbutera/projects/book_club/spec/models/author_spec.rb": [
         1,
         2,
@@ -885,6 +911,6 @@
         null
       ]
     },
-    "timestamp": 1555681874
+    "timestamp": 1555694452
   }
 }
