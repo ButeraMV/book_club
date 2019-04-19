@@ -667,9 +667,18 @@
         1,
         26,
         28,
+        26,
         null,
         null,
         1,
+        26,
+        null,
+        null,
+        1,
+        26,
+        26,
+        2,
+        null,
         26,
         null,
         null
@@ -706,6 +715,9 @@
         18,
         null,
         null
+      ],
+      "/Users/mbutera/projects/book_club/spec/features/books/books_index_sorting_spec.rb": [
+
       ],
       "/Users/mbutera/projects/book_club/spec/features/books/books_index_spec.rb": [
         1,
@@ -811,6 +823,6 @@
         null
       ]
     },
-    "timestamp": 1555604920
+    "timestamp": 1555680403
   }
 }

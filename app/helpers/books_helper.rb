@@ -1,7 +1,8 @@
 module BooksHelper
   def book_average_rating(book)
     arr = book.reviews.pluck(:rating)
-    arr.inject{ |sum, el| sum + el }.to_f / arr.size
+    average = arr.inject{ |sum, el| sum + el }.to_f / arr.size
+    number_with_precision(average, :precision => 2)
   end
 
   def book_review_count(book)
@@ -13,6 +14,6 @@ module BooksHelper
     book.authors.each do |author|
       authors << author.name
     end
-    authors.join(',')
+    authors.join(', ')
   end
 end

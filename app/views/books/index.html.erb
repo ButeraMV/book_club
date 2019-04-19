@@ -1,17 +1,22 @@
-<% @books.each do |book| %>
-  <div class="book">
-    <%= book.title %>
-    <p>Rating: <%= book_average_rating(book) %></p>
-    <p>Reviews: <%= book_review_count(book) %></p>
-    <%= get_authors(author) %>
-    <%= book.pages %>
-    <%= book.year %>
-  </div>
-<% end %>
-
-<div class="card">
-  <div class="card-body">
-    <h5 class="card-title"></h5>
-    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+<div class="container">
+  <div class="book-index-list">
+    <div class="row">
+      <% @books.each do |book| %>
+        <div class="col-sm-6 col-md-4">
+          <div class="card book-card">
+            <div class="card-body">
+              <h5 class="card-title"><%= book.title %></h5>
+              <h6 class="card-subtitle mb-2"><%= get_authors(book) %></h6>
+              <div class="card-text-area">
+              <p class="card-text">Rating: <%= book_average_rating(book) %></p>
+              <p class="card-text">Reviews: <%= book_review_count(book) %></p>
+              <p class="card-text">Pages: <%= book.pages %></p>
+              <p class="card-text">Year: <%= book.year %></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    </div>
   </div>
 </div>
