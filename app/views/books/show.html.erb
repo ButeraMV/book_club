@@ -1,0 +1,10 @@
+<%= @book.title %>
+<%= get_authors(@book) %>
+<%= @book.pages %>
+<%= @book.year %>
+
+<% @book.reviews.each do |review| %>
+  <%= review.title %>
+  <%= review.rating %>
+  <%= review.content %>
+<% end %>
